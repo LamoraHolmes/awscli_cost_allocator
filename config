@@ -1,0 +1,11 @@
+[default]
+
+[profile dev]
+role_arn = arn:aws:iam::123456789:role/Costexplorer-Role
+region = eu-central-1
+credential_source = EcsContainer
+
+[profile qa]
+role_arn = arn:aws:iam::123456789:role/Costexplorer-Role
+region = eu-central-1
+credential_source = EcsContainer

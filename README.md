@@ -1,5 +1,7 @@
 # AWSCLI cost allocator
 
+![Cost_Allocator](./cost_allocator.png)
+
 I needed to get a costoverview in three different AWS accounts and format the data in an AWS Quicksight usable format.
 
 Additionally, I wanted to run the script as cronjob inside an AWS ECS Container.
